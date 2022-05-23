@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Diagnóstico Bioquímico</title>
+        <link rel="stylesheet" href="./estiloDB.css">
+        <link rel="shortcut icon" href="./images/SVG/Logo_DiagnósticoBioquímico-14bis-02.svg" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/8bbac80b2f.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <header>
+        <nav> 
+            <div id="navarea">
+                <ul id="navegador"  style="text-align: center;"> <!-- Centrado desde acá, no en archivo css-->
+                    <li> | <a href="./index.html">Home</a> </li>
+                    <li> | <a href="./acerca.html">Quiénes Somos</a> </li>
+                    <li> | <a href="./contacto.html">Contacto</a></li>
+                    <li> | <a href="./registro.html">Regístrese</a></li>
+                    <li> | <a href="./sucursales.html">Sucursales</a> |</li>
+                 </ul>  
+
+                 <h1>La Cocina del Juani</h1>
+            </div>
+       
+        </nav>
+    
+    </header>
+
+    <main>
+        <div class="formu" style="display: block; align-items: center;">
+        <form action="showdata.html">
+            <label for="txtnomb">Nombre</label>
+            <input type="text" name="txtnomb" id="txtnomb">
+            <br>
+
+            <label for="txtape">Apellido</label>
+            <input type="text" name="txtape" id="txtape">
+            <br>
+
+            <label for="numedad">Edad</label>
+            <input type="number" name="numedad" id="numedad" min="0" max="100">
+            <br>
+
+            <label for="email"> Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+
+            <label for="comentario"> Escribinos</label>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            <br>
+
+            <label for="gen">Género: </label>
+            <input type="radio" name="gen" id="gen" value="hombre"> Hombre
+            <input type="radio" name="gen" id="gen" value="mujer"> Mujer
+            <input type="radio" name="gen" id="gen" value="otro" checked> Otro
+            <br>
+
+            <label for="estudios">Estudio máximo alcanzado:</label>
+            <select name="estudios" id="estudios">
+                <option value="primaria">Nivel primario</option>
+                <option value="secundaria">Nivel secundario</option>
+                <option value="terciario">Nivel terciario</option>
+                <option value="uni">Nivel universitario</option>
+            </select>
+
+            <p>Deseas recibir info sobre nuestros productos?  <input type="checkbox" name="newsletter" id="newsletter" value="si"></p>
+           
+            <br>
+
+            <input type="submit" value="Enviar">
+            <br>
+        </div>
+
+        </form>
+    </main>
+        
+
+
+    
+      
+
+    
